@@ -20,7 +20,7 @@ PM2UI is a modern, lightweight, and fast cross-platform graphical user interface
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/PM2UI.git
+   git clone https://github.com/Grobofhik/PM2UI.git
    cd PM2UI
    ```
 
