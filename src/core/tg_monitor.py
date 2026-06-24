@@ -7,8 +7,12 @@
 import subprocess
 import asyncio
 import re
+import logging
 from PyQt6.QtCore import QThread
 from aiogram import Bot
+
+# Устанавливаем уровень логирования для aiogram на WARNING, чтобы скрыть INFO сообщения
+logging.getLogger('aiogram').setLevel(logging.WARNING)
 
 class TGMonitorThread(QThread):
     def __init__(self, bot_token, chat_id):
